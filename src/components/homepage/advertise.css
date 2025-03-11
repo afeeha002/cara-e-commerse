@@ -1,0 +1,35 @@
+.main{
+    width: 100%;
+    display: flex;
+    gap:20px;
+}
+
+.section-1{
+    width: 65%;
+    height: 350px;
+    background-image:url(../../../public/assets/b10.jpg) ;
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 40px;
+}
+
+.section-2{
+    width: 35%;
+    height: 350px;
+    background-image:url(../../../public/assets/b7.jpg) ;
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    margin-right: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-left: 20px;
+}

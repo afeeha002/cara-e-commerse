@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap");
+
+.aboutContainer{
+    width: 100%;
+    min-height: 100vh;
+}
+.KnowUs{
+    width: 100%;
+    height: 300px;
+    background-image: url(../../../public/assets/banner.png);
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.weAreContainer{
+    width: 100%;
+    display: flex;
+}
+.imageBox{
+    width: 50%;
+    height: auto;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imageBox img{
+    width: 70%;
+    height: 80%;
+    border-radius: 15px;
+}
+.textBox{
+    width: 50%;
+    height: auto;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 5%;
+    text-align: justify;
+    gap: 10px;
+}
+.textBox h1{
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.locationContainer{
+    width: 100%;
+    display: flex;
+}
+.adressBox{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 7%;
+}
+.locationBox{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+.map{
+    width: 100% !important;
+}
+iframe{
+    width: 90%;
+    height: 400px;
+}
+.fifthContainer{
+    padding-top: 0;
+}
+@media screen and (max-width: 700px) {
+    .weAreContainer{
+        flex-wrap: wrap;
+    }
+    .imageBox,.textBox{
+        width: 100%;
+    }
+    .imageBox img{
+        width: 90%;
+    }
+    .textBox{
+        justify-content: flex-start;
+    }
+    .KnowUs{
+        height: 150px;
+    }
+    .locationContainer{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .adressBox,.locationBox{
+        width: 100%;
+    }
+    iframe{
+        width: 100%;
+        height: 300px;
+    }
+    .adressBox{
+        padding-left: 25px;
+        padding-right: 30px;
+        padding-top: 50px;
+        gap: 8px;
+    }
+}

@@ -1,0 +1,53 @@
+.mainAddress {
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: normal;
+    background-color: white;
+    margin-top: 20px;
+    padding-left: 30px;
+    width: 100%;
+    max-height: 110px;
+    display: flex;
+  }
+  .radioButton{
+    width: 10%;
+    height: 100%;
+  }
+  .leftAddress {
+    width: 70%;
+    height: 100%;
+    line-height: 1.5;
+  }
+  .radioButton input{
+    cursor: pointer;
+    
+  }
+  .rightDelete {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin-right: 15px;
+    color: white;
+  }
+  .userName {
+    font-weight: 700;
+    font-size: clamp(12px, 1.7vw, 20px);
+  }
+  .userAddress {
+    font-weight: 400;
+    font-size: clamp(10px, 1.3vw, 15px);
+  }
+  .userDistrict {
+      font-size: clamp(10px, 1.3vw, 15px);
+  }
+  .userPhoneNo {
+      font-size: clamp(10px, 1.3vw, 15px);
+  }
+  .addressDelete{
+    color: rgb(134, 22, 3);
+    cursor: pointer;
+    font-size: clamp(13px, 1.3vw, 15px);
+  }
+  

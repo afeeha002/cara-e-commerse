@@ -1,0 +1,73 @@
+.fullbody {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  overflow: hidden;
+  min-height: 100vh;
+
+}
+
+.leftbody {
+  min-width: 330px;
+  width: 50%;
+  padding-top: 60px;
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.rightbody {
+  padding-right: 30px;
+  min-width: 330px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  overflow: hidden;
+}
+
+.rightBody h1 {
+  color: black;
+  font-size: clamp(25px, 3.5vw, 80px);
+}
+
+.rightBody p {
+  margin-top: 20px;
+  font-size: clamp(14px, 1.4vw, 30px);
+}
+
+.rightBody h3 {
+  font-size: clamp(10px, 1.3vw, 25px);
+}
+
+.leftBody img {
+  max-width: 850px;
+}
+
+.greenH1 {
+  color: #088178 !important;
+}
+
+.btn {
+  background: blueviolet;
+  color: #141111;
+  border: none;
+  padding: 10px 25px;
+  font-weight: bold;
+  font-size: 16px;
+  text-transform: uppercase ;
+  box-shadow: 0px 4px 10px rgba(70, 72, 85, 0.5);
+  transition:0.3s ease-in-out transform ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+

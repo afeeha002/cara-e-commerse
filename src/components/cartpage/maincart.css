@@ -1,0 +1,167 @@
+.maincartContainer {
+    width: 100%;
+    padding-top: 32px;
+    min-height: 100vh;
+    display: flex;
+    align-content: flex-start;
+    gap: 5%;
+    padding-bottom: 30px;
+    justify-content: flex-start;
+
+}
+
+.right {
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    right: 60px;
+}
+
+.left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.emptyCart {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+     font-weight: 500;
+    font-style: normal;
+    font-size: clamp(12px, 1.5vw, 17px);
+}
+
+.coupen,
+.shipping,
+.discount,
+.totalprice,
+.totalamountShow,
+.deliverydate {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: clamp(12px, 1.5vw, 17px);
+}
+
+.amountDisplay {
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    height: 600px;
+    width: 70%;
+    margin-top: 30px;
+    border: 3px solid #e8e8eb;
+    flex-direction: column;
+}
+
+.totalamountShow {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.amount {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: clamp(13px, 1.3vw, 17px);
+}
+
+.buttons {
+    width: 100%;
+    row-gap: 7px;
+    display: flex;
+    flex-direction: column;
+}
+
+.free {
+    color: red;
+}
+
+.buynowBtn,
+.addAdress {
+    width: 100%;
+    height: 35px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: clamp(12px, 1.2vw, 15px);
+    display: flex;
+    justify-content: center;
+    background-color: #23863c;
+    border: none;
+    border-radius: 5px;
+    align-items: center;
+    cursor: pointer;
+    color: white;
+}
+
+.buynowBtn:hover,
+.addAdress:hover {
+    background-color: #35521a;
+}
+
+.cartCount {
+    color: black;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 1.1rem;
+}
+
+.countGrey {
+    margin-left: 10px;
+    color: #d31717e3;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 0.9rem;
+}
+
+.dateDiv {
+    text-align: end;
+}
+
+@media screen and (max-width: 600px) {
+    .maincartContainer {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-left: 0;
+        gap: 0%;
+    }
+
+    .right {
+        position: static;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .left {
+        width: 90%;
+        row-gap: 0;
+    }
+
+    .amountDisplay {
+        width: 90%;
+        padding: 10px;
+        height: 400px;
+    }
+
+    .emptyCart {
+        padding-top: 30px;
+    }
+}
